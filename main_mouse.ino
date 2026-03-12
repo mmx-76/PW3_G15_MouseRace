@@ -44,7 +44,7 @@ void initAccelerometer() {
 
 void setup() {
 
-  Serial.begin(115200);
+  Serial.begin(115200); 
 
   // set analogue pins as inputs
   pinMode(INDUCTOR_LEFT_PIN, INPUT);
@@ -66,5 +66,11 @@ void loop() {
   inductorLeftValue  = analogRead(INDUCTOR_LEFT_PIN);
   inductorRightValue = analogRead(INDUCTOR_RIGHT_PIN);
 
+  // print the values to the serial monitor
+  Serial.print("Left Inductor: ");
+  Serial.print(inductorLeftValue);
+  Serial.print(" | Right Inductor: ");
+  Serial.print(inductorRightValue);
 
+  Serial.println(); // add a line break for readability
 }
