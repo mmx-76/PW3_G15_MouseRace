@@ -72,4 +72,5 @@ void loop() {
   Serial.print(" | Right Inductor: ");
   Serial.print(inductorRightValue);
 
+  Serial.println(); // add a line break for readability
 }
