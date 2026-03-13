@@ -3,4 +3,6 @@ Updates: Added mi549_changes.txt to the document project changes
 Reason: In order everyone knows that changes are made 
 Date: 13/03/2026
 
-
+Update: Constructing the mouse car
+- Circuit components have been soldered and creating the mouse car structure 
+- Constructing together all the components onto the strip board 
