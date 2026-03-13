@@ -74,4 +74,5 @@ void loop() {
 
   delay(100); // delay for readability
   Serial.println(); // add a line break for readability
+  // code works
 }
