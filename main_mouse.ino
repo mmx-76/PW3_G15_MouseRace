@@ -72,5 +72,7 @@ void loop() {
   Serial.print(" | Right Inductor: ");
   Serial.print(inductorRightValue);
 
+  delay(100); // delay for readability
   Serial.println(); // add a line break for readability
+  // code works
 }
